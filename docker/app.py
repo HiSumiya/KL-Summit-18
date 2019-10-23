@@ -16,7 +16,7 @@ def hello():
         visits = "<i>cannot connect to Redis, counter disabled</i>"
 
     html = """<h3>Hello World!</h3><br>
-            Here I am in KL having fun with PKS and Cloud Foundry. AWEEEESSSSOOOOOOME!!<br><br>
+            Here I am having fun with Docker and Kubernetes. AWEEEESSSSOOOOOOME!!<br><br>
             <b>Visits:</b> {visits}<br><br>
             Request served by server: {hostname}
             """.format(visits=visits, hostname=socket.gethostname())
